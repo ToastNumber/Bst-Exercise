@@ -34,6 +34,6 @@ FAQ
 If you want to add a question and answer here, please submit a pull request.
 
 - **Is it ok if our BstTable.java doesn't compile but Fork.java and Empty.java do? Or is this still 0 marks?**
-Don't include it at all. If BstTable does not exist, a null implementation (that does nothing useful but at least compiles) is used.
+  Don't include it at all. If BstTable does not exist, a null implementation (that does nothing useful but at least compiles) is used.
 
 
