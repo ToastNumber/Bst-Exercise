@@ -1,5 +1,3 @@
-Version of 26 February 2016.
-
 Deadline Tuesday 1st March.
 
 There are two parts for the exercise:
@@ -34,9 +32,11 @@ HINTS
 
   It is tricky to create an array of generic type. I do it like this:
 
-    Entry<Key,Value> e = new Entry<>(key,value);
-    @SuppressWarnings("unchecked")
-    Entry<Key,Value>[] a = (Entry<Key,Value>[]) Array.newInstance(e.getClass(), size());
+```java
+	Entry<Key,Value> e = new Entry<>(key,value);
+	@SuppressWarnings("unchecked")
+	Entry<Key,Value>[] a = (Entry<Key,Value>[]) Array.newInstance(e.getClass(), size());
+```
 
   See https://docs.oracle.com/javase/tutorial/java/generics/restrictions.html
 
