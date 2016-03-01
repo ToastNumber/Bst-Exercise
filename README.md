@@ -1,6 +1,8 @@
 Bst Exercise
 ============
 
+**Disclaimer: Read and follow the instructions on Canvas before submitting. The information here has been copied from Canvas, but do not rely on it for your final submission.**
+
 Follow the instructions in the files in this repository. You should submit a zip file `abc123.zip`, where `abcde123` is your username.
 
 Submission guidelines
